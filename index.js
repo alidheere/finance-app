@@ -19,7 +19,7 @@ app.use(cors({
   origin: [
     "http://localhost:5000",
     "http://localhost:5173",
-    "https://transantionapp-4.onrender.com"
+    "https://finance-app-pd58.onrender.com"
   ],
   credentials: true
 }));

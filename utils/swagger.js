@@ -15,7 +15,7 @@ const options = {
     url:
       process.env.NODE_ENV === "development"
         ? "http://localhost:5000"
-        : "hhttps://transantionapp-4.onrender.com",
+        : "https://finance-app-pd58.onrender.com",
   },
 ],
     components: {
