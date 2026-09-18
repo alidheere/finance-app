@@ -14,7 +14,15 @@ import { swaggerSpec } from './utils/swagger.js';
 
 const app = express();
 
-app.use(cors());
+
+app.use(cors({
+  origin: [
+    "http://localhost:5000",
+    "http://localhost:5173",
+    "https://transantionapp-4.onrender.com"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
